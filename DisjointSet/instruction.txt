@@ -1,0 +1,8 @@
+Disjoint set is a data structure that efficiently do:
+	-Build a relationship between two elements
+	-Check if two elements are related.
+It supports some operations:
+	-Make(x): The basic operation that make "x" a set.
+	-Union(x, y): Union the set x and y together and choose a rep by
+	the Weighted Union Rule(WU).
+	-Find(x): To see which set(set-rep) that x belongs to.
