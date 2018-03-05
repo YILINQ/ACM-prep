@@ -1,0 +1,22 @@
+# Heap:
+
+Heap is an efficient data structure that can be used to main some ADTs such as:
+	-priority queue
+	-binary search tree
+	-sorted array
+It has some properties(in binary heap):
+	-Parent is bigger than its children in MAX-heap
+	-Parent is less than its children in MIN-heap
+	-If parent has index x, then its left-child: 2*x, right-child: 2*x+1
+For simplicity, we disscus max_heap as an example.
+It supports operations:
+	-insert(x): insert one element x into the heap.
+	-delete(x): delete one element x from the heap.
+	-max: return the max element in this heap.
+	-extract_max: return the max element in this heap and remove it.
+	-maintain_heap_property: after inserting or deleting an element in the heap, it maintains its property. using up_swap and down_swap to achieve this.
+
+Also it is useful to sort an array:
+	-make the original array a max or min heap.
+	-keep extract_max(or extract_min) on every node.
+	-This cost O(nlogn) on its worst case.
