@@ -1,0 +1,17 @@
+Some key point for BFS.
+The algorithm will be different depending on different problems and conditions.
+
+Notations:
+	Graph G(V, E): V is the set of vertices
+		       E is the set of edges
+	visited[v]: whether the node has been visited
+	
+	Queue Q: A container of the current visiting nodes.
+
+
+BFS(G, s) first starts at node s, push s into the Q and then visit all its neighbours. While visiting neighbours, we pop s out of the Q to represent we have finished visiting it. Keep this procedure until Q becomes empty.
+
+There are a lot of interesting questions that can be solved by BFS, and it is also known as a "brutal force" way of solving some complicated problem.
+
+More examples will be included soon.
+	
