@@ -1,4 +1,5 @@
-A super powerful data structure, coming soon~
+super powerful data structure, coming soon~
 
 maybe tmr.
 
+Since we covered bfs and dfs first in the lecture, I will leave this algo later and update DFS and BFS first.
