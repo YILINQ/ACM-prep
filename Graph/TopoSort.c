@@ -51,6 +51,9 @@ void init_graph(v, e){
 void topoSort(v, e, 0_degree){
   for(int i = 0; i < 1001; i++){
     if (0_degree[i] != NULL){
+      // Find all edges start from it
+      // Could be better if stored at init procedure
+      // TODO improve this.
       for(int j = 0; j < 100001; j++){
         if (e[j].begin == 0_degree[i]){
           e[j].end.in_degree --;
